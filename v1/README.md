@@ -9,7 +9,7 @@ Specs:
 - Execution layer genesis specs (Geth style): [`genesis.json`](./genesis.json)
 - Execution layer bootnode: `enode://ead4b0e2afd49a70ca57a017a59611675ca4464c9d551396711020cea09d6ce974072c7ec0766cc38f4817a33fafcc7f8cbd070feb1ea84e798ee92dfee24675@35.178.114.73:30303`
 - Consensus layer genesus spec (Lighthouse style): [beaconspec](./beaconspec)
-- Consensus layer bootnode: `/ip4/35.178.114.73/tcp/9000`
+- Consensus layer bootnode: `/ip4/35.178.114.73/tcp/9000/p2p/16Uiu2HAkz6oRBK6aKRA2uv9vxJEPhc2Rmznd5D1DqE4DoCYNqnf3 `
 
 Howtos:
 
