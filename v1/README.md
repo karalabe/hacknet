@@ -14,3 +14,4 @@ Specs:
 Howtos:
 
 - Configure a [Geth execution client](./README-Execution-Geth.md)
+- Configure a [Lighthouse consensus client](./README-Consensus-Lighthouse.md)
