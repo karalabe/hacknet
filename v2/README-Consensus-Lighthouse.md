@@ -5,6 +5,7 @@ Clone and build Lighthouse's merge interop PR:
 ```
 $ git clone git@github.com:sigp/lighthouse.git
 $ cd lighthouse
+$ git checkout merge-f2f
 $ make
 
 # Ensure `~/.cargo/bin/lighthouse` is available in you $PATH
