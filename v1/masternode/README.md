@@ -21,5 +21,5 @@ $ /home/ubuntu/go/bin/geth --datadir=/datadrive/hacknet/v1 --ethash.dagdir=/data
 then stop it and restart it without mining (dafuq, yay hack code) and with APIs exposed for the consensus client:
 
 ```
-$ /home/ubuntu/go/bin/geth --datadir=/datadrive/hacknet/v1 --catalyst
+$ /home/ubuntu/go/bin/geth --datadir=/datadrive/hacknet/v1 --catalyst --http --http.api "engine,eth"
 ```
