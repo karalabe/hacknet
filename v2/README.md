@@ -14,8 +14,8 @@ Execution layer specs:
 Consensus layer specs:
 
 - Genesis spec (Lighthouse style): [beaconspec](./beaconspec)
-- Bootnode libp2p endpoint: `/ip4/35.178.114.73/tcp/9000/p2p/16Uiu2HAkz6oRBK6aKRA2uv9vxJEPhc2Rmznd5D1DqE4DoCYNqnf3`
-- Bootnode ENR: `enr:-K24QLK6c3kEq68gLIOutNuZsHKBIvR48JaAoQVrVbHK7bBJRqRX72f2feV4vEOiROQYyDNJC9z1gXeH8JsQ0U9IbTsch2F0dG5ldHOIAAAAAAAAAACEZXRoMpC_4NP0AgAAAf__________gmlkgnY0iXNlY3AyNTZrMaECRXTPHtP7GldWzvT2G_minRQbPWeGeaOW04upqcGUxeKIc3luY25ldHMAg3RjcIIjKA`
+- Bootnode libp2p endpoint: `/ip4/35.178.114.73/tcp/9000/p2p/16Uiu2HAmLzmg7WXGtXwZrfLZAbBn8rdY3MWWfvoN4FfeYR4vrQpV`
+- Bootnode ENR: `enr:-K24QJ7fj53ZVzBvfJvVMyFeW3yzn9cb30LqdkdbhZShHn71ApVXv_auGba8uhVICD2bTQvQoiB3SkmAfTz-8NMMHY0Bh2F0dG5ldHOIAAAAAAAAAACEZXRoMpC_4NP0AgAAAf__________gmlkgnY0iXNlY3AyNTZrMaEDe-7HhtJ_OuFY2feuHsXuMsPVoHzn7tU9QHqFRIzo7FaIc3luY25ldHMAg3RjcIIjKA`
 
 Howtos:
 
