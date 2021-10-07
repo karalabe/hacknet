@@ -2,18 +2,18 @@ This guide deploys a Nimbus consensus client and connects it to the hacknet. You
 
 Clone and build Nimbus's merge interop PR:
 
-```bash
-git clone https://github.com/status-im/nimbus-eth2.git
-cd nimbus-eth2
-git checkout amphora-merge-interop # or git reset --hard origin/amphora-merge-interop
-make update -j4
-make NIMFLAGS="-d:const_preset=minimal" LOG_LEVEL=DEBUG nimbus_beacon_node -j4
+```
+$ git clone https://github.com/status-im/nimbus-eth2.git
+$ cd nimbus-eth2
+$ git checkout amphora-merge-interop
+$ make update -j4
+$ make NIMFLAGS="-d:const_preset=minimal" LOG_LEVEL=DEBUG nimbus_beacon_node -j4
 ```
 
 Run the consensus Nimbus and connect it to consensus and execution:
 
-```bash
-build/nimbus_beacon_node \
+```
+$ build/nimbus_beacon_node \
   --data-dir=hacknet.v2.nimbus \
   --network=../hacknet/v2/beaconspec \
   --log-level=DEBUG \
