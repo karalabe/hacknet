@@ -21,6 +21,7 @@ $ lighthouse \
 	beacon_node \
 	--datadir ./hacknet.v2.lighthouse \
 	--dummy-eth1 \
+	--disable-packet-filter \
 	--http \
 	--http-allow-sync-stalled \
 	--metrics \
