@@ -20,3 +20,7 @@ $ build/nimbus_beacon_node \
   -b:enr:-Ly4QEflyLLzPZujoYotdzLYZqzO39EES1bAxFqmL5C_zN3JGZ82_1k4hlUUQFDvW_LPibgdoSTxKo8lTzD9_FJ9sTwrh2F0dG5ldHOIAAAAAAAAAACEZXRoMpC_4NP0AgAAAf__________gmlkgnY0gmlwhCOyckmJc2VjcDI1NmsxoQN77seG0n864VjZ964exe4yw9WgfOfu1T1AeoVEjOjsVohzeW5jbmV0cwCDdGNwgiMog3VkcIIjKA \
   --web3-url=ws://127.0.0.1:8546/
 ```
+
+Don't forget to run the EL with WebSocket support
+
+* geth: add `--ws -ws.api "engine,eth"` to the geth command line
