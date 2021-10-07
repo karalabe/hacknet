@@ -21,3 +21,5 @@ Howtos:
 
 - Configure a [Geth execution client](./README-Execution-Geth.md)
 - Configure a [Lighthouse consensus client](./README-Consensus-Lighthouse.md)
+- Configure a [Nimbus consensus client](./README-Consensus-Nimbus.md)
+- Configure a [Teku consensus client](./README-Consensus-Teku.md)
