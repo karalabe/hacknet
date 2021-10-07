@@ -55,6 +55,7 @@ $ nohup /home/ubuntu/.cargo/bin/lighthouse --spec minimal \
 	beacon_node \
 	--datadir ./beacondir \
 	--dummy-eth1 \
+	--disable-packet-filter \
 	--http \
 	--boot-nodes="enr:-Iq4QKuNB_wHmWon7hv5HntHiSsyE1a6cUTK1aT7xDSU_hNTLW3R4mowUboCsqYoh1kN9v3ZoSu_WuvW9Aw0tQ0Dxv6GAXxQ7Nv5gmlkgnY0gmlwhLKAlv6Jc2VjcDI1NmsxoQK6S-Cii_KmfFdUJL2TANL3ksaKUnNXvTCv1tLwXs0QgIN1ZHCCIyk" \
 	--http-allow-sync-stalled \
